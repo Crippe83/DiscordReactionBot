@@ -1,0 +1,6 @@
+{
+	"token": "BOT-TOKEN",
+	"user": "DISCORD-USER-ID",
+	"emoji": "DISCORD-EMOJI-ID",
+	"role": "<DISCORD-ROLE-ID>"
+}
