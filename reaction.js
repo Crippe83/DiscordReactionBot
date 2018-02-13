@@ -16,8 +16,8 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.author.id !== config.user) return;
     message.react(config.emoji);
-	message.channel.send(config.role);
-    console.log('Added Reaction And Mention To Discord Message.');
+	//message.channel.send(config.role);
+    console.log('Added Reaction To Discord Message.');
 });
 
 client.login(config.token);
